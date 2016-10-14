@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC2568C8-19FC-4847-81B6-A827E7081C47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASL.Hr.BLL</RootNamespace>
+    <AssemblyName>ASL.Hr.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NCalc">
+      <HintPath>..\DLL\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsentEntryManager.cs" />
+    <Compile Include="ApprovalManager.cs" />
+    <Compile Include="ApprovalOfManualEntryManager.cs" />
+    <Compile Include="AttendanceManager.cs" />
+    <Compile Include="AttendImportManager.cs" />
+    <Compile Include="AttPaymentInfoManager.cs" />
+    <Compile Include="BankManager.cs" />
+    <Compile Include="BonusPolicyManager.cs" />
+    <Compile Include="BonusProcessManager.cs" />
+    <Compile Include="CompanyPoliciesFileManager.cs" />
+    <Compile Include="ContactManager.cs" />
+    <Compile Include="CurrencyManager.cs" />
+    <Compile Include="DailyAttendanceManger.cs" />
+    <Compile Include="DataCaptureConfigurationManager.cs" />
+    <Compile Include="DataCaptureManager.cs" />
+    <Compile Include="DemoEmpManager.cs" />
+    <Compile Include="EmployeeManager.cs" />
+    <Compile Include="EmpSearchManager.cs" />
+    <Compile Include="EntityManager.cs" />
+    <Compile Include="EvalItemManager.cs" />
+    <Compile Include="EvaluationManager.cs" />
+    <Compile Include="FiscalYearManager.cs" />
+    <Compile Include="HKEntryManager.cs" />
+    <Compile Include="LatestNewsManager.cs" />
+    <Compile Include="LeaveAllocationManager.cs" />
+    <Compile Include="LeaveApprovedManager.cs" />
+    <Compile Include="LeavePolicyManager.cs" />
+    <Compile Include="LeaveRuleManager.cs" />
+    <Compile Include="LeaveSummeryManager.cs" />
+    <Compile Include="LeaveTransApprovedMnager.cs" />
+    <Compile Include="LeaveYearManager.cs" />
+    <Compile Include="LineManager.cs" />
+    <Compile Include="LoanOrAdvanceManager.cs" />
+    <Compile Include="LoanTypeManager.cs" />
+    <Compile Include="LookupEntManager.cs" />
+    <Compile Include="ManualShiftAssignmentManager.cs" />
+    <Compile Include="MedicalReinversementManager.cs" />
+    <Compile Include="MiscAllowDedManager.cs" />
+    <Compile Include="MonthlySalarProcessManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OTAssignmentManager.cs" />
+    <Compile Include="OtherSalaryRuleManager.cs" />
+    <Compile Include="OTSlabManager.cs" />
+    <Compile Include="OutOffOfficeEntryManager.cs" />
+    <Compile Include="PromotionManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RateManager.cs" />
+    <Compile Include="ReportManager.cs" />
+    <Compile Include="SalaryComponentHelper.cs" />
+    <Compile Include="SalaryHead_Manager.cs" />
+    <Compile Include="SalaryInfoEntryManager.cs" />
+    <Compile Include="SalaryProcessManager.cs" />
+    <Compile Include="SalaryRuleManager.cs" />
+    <Compile Include="SalesUploadController.cs" />
+    <Compile Include="SeparationManager.cs" />
+    <Compile Include="SettingsManager.cs" />
+    <Compile Include="ShiftPlanManager.cs" />
+    <Compile Include="ShiftRosterManager.cs" />
+    <Compile Include="ShiftRuleManager.cs" />
+    <Compile Include="SkillManager.cs" />
+    <Compile Include="TemEmpManager.cs" />
+    <Compile Include="WHDeclarationManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ACC.DAO\ACC.DAO.csproj">
+      <Project>{AE37CBC5-D9CB-472C-BC60-A594ADE7E652}</Project>
+      <Name>ACC.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.DAL\ASL.DAL.csproj">
+      <Project>{AD5C9169-C756-4311-B709-0BBA5AE71A5F}</Project>
+      <Name>ASL.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.DATA\ASL.DATA.csproj">
+      <Project>{1BCDDC5D-6F5E-4F74-9A76-274EA3295C30}</Project>
+      <Name>ASL.DATA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.Hr.DAO\ASL.Hr.DAO.csproj">
+      <Project>{ADEDE3F3-EA5F-4701-9C87-1D9F96D62CF7}</Project>
+      <Name>ASL.Hr.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.STATIC\ASL.STATIC.csproj">
+      <Project>{2299BB0D-1CCE-448D-B07C-ECF49A2247A3}</Project>
+      <Name>ASL.STATIC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReportSuite.BLL\ReportSuite.BLL.csproj">
+      <Project>{6136F9C0-0CCF-4876-88FF-1600F538A469}</Project>
+      <Name>ReportSuite.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

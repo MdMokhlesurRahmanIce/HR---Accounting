@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80C7192A-79FB-4F9B-817A-D8CEBF114721}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GMHR</RootNamespace>
+    <AssemblyName>GMHR</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="App_Themes\Default\Default.css" />
+    <Content Include="App_Themes\Default\images\arrow.gif" />
+    <Content Include="App_Themes\Default\images\bg-bevel-line.png" />
+    <Content Include="App_Themes\Default\images\bg-scanlines.png" />
+    <Content Include="App_Themes\Default\images\bg.png" />
+    <Content Include="App_Themes\Default\images\bg_header.png" />
+    <Content Include="App_Themes\Default\images\btn-power-off.png" />
+    <Content Include="App_Themes\Default\images\btn-power-on.png" />
+    <Content Include="App_Themes\Default\images\dash.png" />
+    <Content Include="App_Themes\Default\images\form-bg.png" />
+    <Content Include="App_Themes\Default\images\ico-alerts.png" />
+    <Content Include="App_Themes\Default\images\ico-gear.png" />
+    <Content Include="App_Themes\Default\images\ico-totop.png" />
+    <Content Include="App_Themes\Default\images\no-entry.png" />
+    <Content Include="App_Themes\Default\images\shadow.png" />
+    <Content Include="App_Themes\Default\images\sprite.png" />
+    <Content Include="bin\ReportSuite.BLL.dll" />
+    <Content Include="bin\ReportSuite.BLL.pdb" />
+    <Content Include="bin\ReportSuite.DAO.dll" />
+    <Content Include="bin\ReportSuite.DAO.pdb" />
+    <Content Include="bin\ASL.DAL.dll" />
+    <Content Include="bin\ASL.DAL.pdb" />
+    <Content Include="bin\ASL.DATA.dll" />
+    <Content Include="bin\ASL.DATA.pdb" />
+    <Content Include="bin\ASL.Hr.BLL.dll" />
+    <Content Include="bin\ASL.Hr.BLL.pdb" />
+    <Content Include="bin\ASL.Hr.DAO.dll" />
+    <Content Include="bin\ASL.Hr.DAO.pdb" />
+    <Content Include="bin\ST.Infrastructure.dll" />
+    <Content Include="bin\ST.Infrastructure.pdb" />
+    <Content Include="bin\ASL.Security.BLL.dll" />
+    <Content Include="bin\ASL.Security.BLL.pdb" />
+    <Content Include="bin\ASL.Security.DAO.dll" />
+    <Content Include="bin\ASL.Security.DAO.pdb" />
+    <Content Include="bin\ASL.STATIC.dll" />
+    <Content Include="bin\ASL.STATIC.pdb" />
+    <Content Include="bin\ASL.Web.Framework.dll" />
+    <Content Include="bin\ASL.Web.Framework.pdb" />
+    <Content Include="bin\Hr.Web.Reports.dll" />
+    <Content Include="bin\Hr.Web.Reports.pdb" />
+    <Content Include="Controls\Layout\Footer.ascx" />
+    <Content Include="Controls\Layout\Header.ascx" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="googlemap.aspx" />
+    <Content Include="GridScriptGenerator.aspx" />
+    <Content Include="GridScripts\MenuItem.js" />
+    <Content Include="GridScripts\SecurityRule.js" />
+    <Content Include="GridScripts\UserGroup.js" />
+    <Content Include="GridScripts\UserGroupList.js" />
+    <Content Include="GroupInformation.aspx" />
+    <Content Include="ImageHandler\ImageViewer.aspx" />
+    <Content Include="ImageHandler\MakeThumbnailImage.aspx" />
+    <Content Include="images\Calendar.jpg" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\Erp.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\hr_home.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\new 20X20.png" />
+    <Content Include="images\node.png" />
+    <Content Include="images\node16x16.png" />
+    <Content Include="images\Print.gif" />
+    <Content Include="images\Search 20X20.png" />
+    <Content Include="images\user_add.gif" />
+    <Content Include="JQGrid\examples.css" />
+    <Content Include="JQGrid\grid.locale-en.js" />
+    <Content Include="JQGrid\jquery.tooltip.css" />
+    <Content Include="JQGrid\jquery.ui.autocomplete.css" />
+    <Content Include="JQGrid\js\i18n\grid.locale-bg.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-bg1251.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-cat.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-cs.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-de.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-dk.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-el.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-fa.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-fi.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-fr.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-he.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-is.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-it.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-jp.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-nl.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-no.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-pl.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-pt-br.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-pt.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-ro.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-ru.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-sp.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-sv.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-tr.js" />
+    <Content Include="JQGrid\js\i18n\grid.locale-ua.js" />
+    <Content Include="JQGrid\js\jquery-1.3.2.min.js" />
+    <Content Include="JQGrid\js\jquery-1.7.1.min.js" />
+    <Content Include="JQGrid\js\jquery-ui-1.8.17.custom.min.js" />
+    <Content Include="JQGrid\js\jquery.jqGrid.min.js" />
+    <Content Include="JQGrid\menu.css" />
+    <Content Include="JQGrid\Stylesheet.css" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_glass_75_ffffff_1x400.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-icons_222222_256x240.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-icons_454545_256x240.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-icons_888888_256x240.png" />
+    <Content Include="JQGrid\themes\basic\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="JQGrid\themes\basic\jquery-ui-1.8.18.custom.css" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino1.7.3\jquery-ui-1.7.3.custom.css" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="JQGrid\themes\cupertino\jquery-ui-1.8.17.custom.css" />
+    <Content Include="JQGrid\themes\jquery-ui-1.8rc1.custom.css" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="JQGrid\themes\lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="JQGrid\themes\lightness\jquery-ui-1.8.custom.css" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="JQGrid\themes\redmond\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="JQGrid\themes\redmond\jquery-ui-1.7.1.custom.css" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="JQGrid\themes\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="JQGrid\themes\smoothness\jquery-ui-1.7.3.custom.css" />
+    <Content Include="JQGrid\themes\ui.jqgrid.css" />
+    <Content Include="JQGrid\ui.dropdownchecklist.css" />
+    <Content Include="js\ajaxHook.js" />
+    <Content Include="js\CommonFunctions.js" />
+    <Content Include="js\GlobalSettings.js" />
+    <Content Include="js\jquery-impromptu.3.1.js" />
+    <Content Include="js\jquery-ui-1.8rc1.custom.min.js" />
+    <Content Include="js\jquery-ui-timepicker-addon.js" />
+    <Content Include="js\jquery.tooltip.js" />
+    <Content Include="js\MessageBox.js" />
+    <Content Include="js\NumericValidation.js" />
+    <Content Include="js\OpenPopupPage.js" />
+    <Content Include="js\PrinterSetup.js" />
+    <Content Include="js\SearchItem.js" />
+    <Content Include="js\ui.panel.min.js" />
+    <Content Include="obj\Debug\ST.Infrastructure.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\ST.Infrastructure.dll" />
+    <Content Include="obj\Debug\ST.Infrastructure.pdb" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="SecurityRuleInfo.aspx" />
+    <Content Include="Security\Home.aspx" />
+    <Content Include="Security\Login.aspx" />
+    <Content Include="Security\Message.htm" />
+    <Content Include="ST.Infrastructure.csproj" />
+    <Content Include="ST.Infrastructure.csproj.user" />
+    <Content Include="ST.Infrastructure.Publish.xml" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="UserInformation.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Layout\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Layout\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Layout\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Layout\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicallyMethodInvoker.cs" />
+    <Compile Include="EnumS.cs" />
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formUtil.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="googlemap.aspx.cs">
+      <DependentUpon>googlemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="googlemap.aspx.designer.cs">
+      <DependentUpon>googlemap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\CallBackMode.cs" />
+    <Compile Include="GridHelperClasses\CallBackMode1.cs" />
+    <Compile Include="GridHelperClasses\DataHandler.ashx.cs">
+      <DependentUpon>DataHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\DataHandler1.ashx.cs">
+      <DependentUpon>DataHandler1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\DropDownSource.ashx.cs">
+      <DependentUpon>DropDownSource.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\GridGenericHandler.ashx.cs">
+      <DependentUpon>GridGenericHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\GridRowAdd.cs" />
+    <Compile Include="GridHelperClasses\GridRowDelete.cs" />
+    <Compile Include="GridHelperClasses\GridRowEdit.cs" />
+    <Compile Include="GridHelperClasses\GridSearch.cs" />
+    <Compile Include="GridHelperClasses\GridSort.cs" />
+    <Compile Include="GridHelperClasses\JsonMultipleSearch.cs" />
+    <Compile Include="GridHelperClasses\MultiDropdownSource.ashx.cs">
+      <DependentUpon>MultiDropdownSource.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\MultiDropdownSource1.ashx.cs">
+      <DependentUpon>MultiDropdownSource1.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\MultipleSearching.cs" />
+    <Compile Include="GridHelperClasses\MultipleSearchRule.cs" />
+    <Compile Include="GridHelperClasses\SearchDataType.cs" />
+    <Compile Include="GridHelperClasses\SearchGridHandler.ashx.cs">
+      <DependentUpon>SearchGridHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\Searching.cs" />
+    <Compile Include="GridHelperClasses\SearchOperation.cs" />
+    <Compile Include="GridHelperClasses\SortDirection.cs" />
+    <Compile Include="GridHelperClasses\SubGridGenericHandler.ashx.cs">
+      <DependentUpon>SubGridGenericHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GridHelperClasses\ToolBarSearching.cs" />
+    <Compile Include="GridScriptGenerator.aspx.cs">
+      <DependentUpon>GridScriptGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridScriptGenerator.aspx.designer.cs">
+      <DependentUpon>GridScriptGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GroupInformation.aspx.cs">
+      <DependentUpon>GroupInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GroupInformation.aspx.designer.cs">
+      <DependentUpon>GroupInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageHandler\ImageUtil.cs" />
+    <Compile Include="ImageHandler\ImageViewer.aspx.cs">
+      <DependentUpon>ImageViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageHandler\ImageViewer.aspx.designer.cs">
+      <DependentUpon>ImageViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageHandler\MakeThumbnailImage.aspx.cs">
+      <DependentUpon>MakeThumbnailImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageHandler\MakeThumbnailImage.aspx.designer.cs">
+      <DependentUpon>MakeThumbnailImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure.master.cs">
+      <DependentUpon>Infrastructure.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Infrastructure.master.designer.cs">
+      <DependentUpon>Infrastructure.master</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Root.Master.cs">
+      <DependentUpon>Root.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Root.Master.designer.cs">
+      <DependentUpon>Root.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchHelper.cs" />
+    <Compile Include="SecurityRuleInfo.aspx.cs">
+      <DependentUpon>SecurityRuleInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityRuleInfo.aspx.designer.cs">
+      <DependentUpon>SecurityRuleInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteLoggedOff.Master.cs">
+      <DependentUpon>SiteLoggedOff.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteLoggedOff.Master.designer.cs">
+      <DependentUpon>SiteLoggedOff.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserInformation.aspx.cs">
+      <DependentUpon>UserInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInformation.aspx.designer.cs">
+      <DependentUpon>UserInformation.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\Package\" />
+    <Folder Include="obj\Release\TempPE\" />
+    <Folder Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\Skin.skin" />
+    <Content Include="GridHelperClasses\DataHandler.ashx" />
+    <Content Include="GridHelperClasses\DataHandler1.ashx" />
+    <Content Include="GridHelperClasses\DropDownSource.ashx" />
+    <Content Include="GridHelperClasses\GridGenericHandler.ashx" />
+    <Content Include="GridHelperClasses\MultiDropdownSource.ashx" />
+    <Content Include="GridHelperClasses\MultiDropdownSource1.ashx" />
+    <Content Include="GridHelperClasses\SearchGridHandler.ashx" />
+    <Content Include="GridHelperClasses\SubGridGenericHandler.ashx" />
+    <Content Include="Infrastructure.master" />
+    <None Include="Logs\globalLog.log" />
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="Root.Master" />
+    <Content Include="SiteLoggedOff.Master" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1311</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

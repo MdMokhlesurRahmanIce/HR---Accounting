@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADEDE3F3-EA5F-4701-9C87-1D9F96D62CF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASL.Hr.DAO</RootNamespace>
+    <AssemblyName>ASL.Hr.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsentEntry.cs" />
+    <Compile Include="AttendanceManualModification.cs" />
+    <Compile Include="AttendanceSummary.cs" />
+    <Compile Include="AttPaymentRule.cs" />
+    <Compile Include="AttPaymentRuleAmount.cs" />
+    <Compile Include="AttPaymentRuleCriteria.cs" />
+    <Compile Include="Att_Device.cs" />
+    <Compile Include="ATT_IO.cs" />
+    <Compile Include="ATT_IO_Temp.cs" />
+    <Compile Include="Bank_Branch.cs" />
+    <Compile Include="BonusPolicyDetails.cs" />
+    <Compile Include="BonusPolicyMaster.cs" />
+    <Compile Include="BonusProcessDetail.cs" />
+    <Compile Include="BonusProcessMaster.cs" />
+    <Compile Include="CommonHelper.cs" />
+    <Compile Include="Contact.cs" />
+    <Compile Include="ContactCategory.cs" />
+    <Compile Include="ContactCategoryMapping.cs" />
+    <Compile Include="ContactSubCategory.cs" />
+    <Compile Include="ContactSubCategoryMapping.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="CustomerWisePer.cs" />
+    <Compile Include="DailyAttendance.cs" />
+    <Compile Include="DataCaptureConfiguration.cs" />
+    <Compile Include="DemoEmpMaster.cs" />
+    <Compile Include="Designation.cs" />
+    <Compile Include="DiviceData.cs" />
+    <Compile Include="EducationQualification.cs" />
+    <Compile Include="EmpFilterSets.cs" />
+    <Compile Include="EmployeeEmergencyInfo.cs" />
+    <Compile Include="EmployeeHKInfo.cs" />
+    <Compile Include="EmployeeOtherSkillInfo.cs" />
+    <Compile Include="EmployeeSalary.cs" />
+    <Compile Include="EmployeeSalaryTemp.cs" />
+    <Compile Include="EmployeeSkillInfo.cs" />
+    <Compile Include="EntityList.cs" />
+    <Compile Include="enumsHr.cs" />
+    <Compile Include="Gen_Bank.cs" />
+    <Compile Include="Gen_Country.cs" />
+    <Compile Include="Gen_District.cs" />
+    <Compile Include="Gen_EmpType.cs" />
+    <Compile Include="Gen_Ethnic.cs" />
+    <Compile Include="Gen_Exam.cs" />
+    <Compile Include="Gen_FY.cs" />
+    <Compile Include="Gen_Grade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gen_LookupEnt.cs" />
+    <Compile Include="Gen_Month.cs" />
+    <Compile Include="Gen_Org.cs" />
+    <Compile Include="Gen_Relation.cs" />
+    <Compile Include="HourlyLeaveTrans.cs" />
+    <Compile Include="HourWisePayment.cs" />
+    <Compile Include="HousekeepingHierarchy.cs" />
+    <Compile Include="HouseKeepingValue.cs" />
+    <Compile Include="HRM_Emp.cs" />
+    <Compile Include="HRM_EmpAddr.cs" />
+    <Compile Include="HRM_EmpEdu.cs" />
+    <Compile Include="HRM_EmpEduDip.cs" />
+    <Compile Include="HRM_EmpEmployment.cs" />
+    <Compile Include="HRM_EmpFamDet.cs" />
+    <Compile Include="HRM_EmpFamily.cs" />
+    <Compile Include="HRM_EmpFileAttach.cs" />
+    <Compile Include="HRM_Eval.cs" />
+    <Compile Include="HRM_EvalDet.cs" />
+    <Compile Include="HRM_EvalItem.cs" />
+    <Compile Include="HRM_PolicyFileAttach.cs" />
+    <Compile Include="Hr_MasterSetup.cs" />
+    <Compile Include="JobResponsibility.cs" />
+    <Compile Include="LanguageInfo.cs" />
+    <Compile Include="LatestNews.cs" />
+    <Compile Include="LeaveAllocation.cs" />
+    <Compile Include="LeavePolicyDetails.cs" />
+    <Compile Include="LeavePolicyMaster.cs" />
+    <Compile Include="LeaveRuleDetails.cs" />
+    <Compile Include="LeaveRuleMaster.cs" />
+    <Compile Include="LeaveSummery.cs" />
+    <Compile Include="LeaveTransApproved.cs" />
+    <Compile Include="LeaveYear.cs" />
+    <Compile Include="LineInfo.cs" />
+    <Compile Include="LoanDefination.cs" />
+    <Compile Include="LoanProcess.cs" />
+    <Compile Include="LoanType.cs" />
+    <Compile Include="MedicalReinSetup.cs" />
+    <Compile Include="MedicalReinTrans.cs" />
+    <Compile Include="MiscAllowDedEntryManager.cs" />
+    <Compile Include="MiscEntryDynamicGrid.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="OTAssignment.cs" />
+    <Compile Include="OtherSalaryRule.cs" />
+    <Compile Include="OtherSkillInfo.cs" />
+    <Compile Include="OTSlab.cs" />
+    <Compile Include="OutOfOfficeInfo.cs" />
+    <Compile Include="PopulateDropdownList.cs" />
+    <Compile Include="ProductionDataCapture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataCaptureRate.cs" />
+    <Compile Include="RateDynamicGrid.cs" />
+    <Compile Include="Reactive.cs" />
+    <Compile Include="SalaryDetails.cs" />
+    <Compile Include="SalaryHead.cs" />
+    <Compile Include="SalaryProcess.cs" />
+    <Compile Include="SalaryRule.cs" />
+    <Compile Include="SalaryRuleBackup.cs" />
+    <Compile Include="SalesUploadFromExcel.cs" />
+    <Compile Include="SearationGrid.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="ShiftBreakInfo.cs" />
+    <Compile Include="ShiftPlan.cs" />
+    <Compile Include="ShiftRoster.cs" />
+    <Compile Include="ShiftRule.cs" />
+    <Compile Include="ShiftRuleDetail.cs" />
+    <Compile Include="SkillInfo.cs" />
+    <Compile Include="TempEmpCode.cs" />
+    <Compile Include="TempEmpListForSalary.cs" />
+    <Compile Include="TransferAndPromotionHistory.cs.cs" />
+    <Compile Include="UploadSalary.cs" />
+    <Compile Include="WHCalendar.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASL.DAL\ASL.DAL.csproj">
+      <Project>{AD5C9169-C756-4311-B709-0BBA5AE71A5F}</Project>
+      <Name>ASL.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.DATA\ASL.DATA.csproj">
+      <Project>{1BCDDC5D-6F5E-4F74-9A76-274EA3295C30}</Project>
+      <Name>ASL.DATA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.STATIC\ASL.STATIC.csproj">
+      <Project>{2299BB0D-1CCE-448D-B07C-ECF49A2247A3}</Project>
+      <Name>ASL.STATIC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

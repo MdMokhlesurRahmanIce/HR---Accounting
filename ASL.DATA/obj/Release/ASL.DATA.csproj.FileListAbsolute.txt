@@ -1,0 +1,16 @@
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\bin\Release\ASL.DATA.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\bin\Release\ASL.DATA.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\obj\Release\ASL.DATA.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\obj\Release\ASL.DATA.pdb
+E:\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\bin\Release\ASL.DATA.dll
+E:\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\bin\Release\ASL.DATA.pdb
+E:\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\obj\Release\ASL.DATA.dll
+E:\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\obj\Release\ASL.DATA.pdb
+D:\zaman11.12.2013\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\bin\Release\ASL.DATA.dll
+D:\zaman11.12.2013\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\bin\Release\ASL.DATA.pdb
+D:\zaman11.12.2013\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\obj\Release\ASL.DATA.dll
+D:\zaman11.12.2013\Zaman11.08.2013\Zaman11.08.2013\HR\ASL.DATA\obj\Release\ASL.DATA.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\bin\Release\ASL.DATA.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\bin\Release\ASL.DATA.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\obj\Release\ASL.DATA.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\obj\Release\ASL.DATA.pdb

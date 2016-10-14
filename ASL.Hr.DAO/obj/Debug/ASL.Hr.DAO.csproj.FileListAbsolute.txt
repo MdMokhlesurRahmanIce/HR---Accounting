@@ -1,0 +1,44 @@
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.csprojResolveAssemblyReference.cache
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.csprojResolveAssemblyReference.cache
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.Hr.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DAL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.DATA.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\bin\Debug\ASL.STATIC.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Hr.DAO\obj\Debug\ASL.Hr.DAO.pdb

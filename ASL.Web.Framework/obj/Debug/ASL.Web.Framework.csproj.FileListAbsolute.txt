@@ -1,0 +1,76 @@
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.csprojResolveAssemblyReference.cache
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.csprojResolveAssemblyReference.cache
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Web.Framework.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DATA.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.BLL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Security.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.STATIC.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ReportSuite.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.DAL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\bin\Debug\ASL.Hr.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.Web.Framework\obj\Debug\ASL.Web.Framework.pdb

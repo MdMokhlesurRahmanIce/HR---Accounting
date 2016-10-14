@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+	<Body>
+		<ReportItems>
+			<Tablix Name="Tablix1">
+				<TablixCorner>
+					<TablixCornerRows>
+						<TablixCornerRow>
+							<TablixCornerCell>
+								<CellContents>
+									<Textbox Name="Textbox29">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>SL</Value>
+														<Style />
+													</TextRun>
+												</TextRuns>
+												<Style />
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox29</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixCornerCell>
+							<TablixCornerCell>
+								<CellContents>
+									<Textbox Name="Textbox1">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>LOB</Value>
+														<Style />
+													</TextRun>
+												</TextRuns>
+												<Style />
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox1</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixCornerCell>
+							<TablixCornerCell>
+								<CellContents>
+									<Textbox Name="Textbox8">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>Emp Catg.</Value>
+														<Style />
+													</TextRun>
+												</TextRuns>
+												<Style />
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox8</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixCornerCell>
+							<TablixCornerCell>
+								<CellContents>
+									<Textbox Name="Textbox10">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>Dept.</Value>
+														<Style />
+													</TextRun>
+												</TextRuns>
+												<Style />
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox10</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixCornerCell>
+							<TablixCornerCell>
+								<CellContents>
+									<Textbox Name="Textbox4">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>Emp Code</Value>
+														<Style />
+													</TextRun>
+												</TextRuns>
+												<Style />
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox4</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixCornerCell>
+							<TablixCornerCell>
+								<CellContents>
+									<Textbox Name="Textbox5">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>Emp Name</Value>
+														<Style />
+													</TextRun>
+												</TextRuns>
+												<Style />
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox5</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixCornerCell>
+							<TablixCornerCell>
+								<CellContents>
+									<Textbox Name="Textbox7">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>Desig</Value>
+														<Style />
+													</TextRun>
+												</TextRuns>
+												<Style />
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox7</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixCornerCell>
+						</TablixCornerRow>
+					</TablixCornerRows>
+				</TablixCorner>
+				<TablixBody>
+					<TablixColumns>
+						<TablixColumn>
+							<Width>0.18108in</Width>
+						</TablixColumn>
+						<TablixColumn>
+							<Width>0.19931in</Width>
+						</TablixColumn>
+						<TablixColumn>
+							<Width>0.24097in</Width>
+						</TablixColumn>
+						<TablixColumn>
+							<Width>0.24097in</Width>
+						</TablixColumn>
+						<TablixColumn>
+							<Width>0.22014in</Width>
+						</TablixColumn>
+						<TablixColumn>
+							<Width>0.23056in</Width>
+						</TablixColumn>
+						<TablixColumn>
+							<Width>0.14723in</Width>
+						</TablixColumn>
+						<TablixColumn>
+							<Width>0.17847in</Width>
+						</TablixColumn>
+					</TablixColumns>
+					<TablixRows>
+						<TablixRow>
+							<Height>0.22886in</Height>
+							<TablixCells>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="DayStatus">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>=Fields!DayStatus.Value</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>DayStatus</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="Textbox44">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>= Sum( Iif(Fields!DayStatus.Value = "P",1,0))</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>Textbox44</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="Textbox52">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>= Sum( Iif(Fields!DayStatus.Value = "L",1,0))</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>Textbox52</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="Textbox64">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>= Sum( Iif(Fields!DayStatus.Value = "OD",1,0))</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>Textbox64</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="Textbox56">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>= Sum( Iif(Fields!DayStatus.Value = "A",1,0))</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>Textbox56</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="Textbox60">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>= Sum( Iif(Fields!DayStatus.Value = "LV",1,0))</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>Textbox60</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="Textbox68">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>= Sum( Iif(Fields!DayStatus.Value = "W",1,0))</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>Textbox68</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+								<TablixCell>
+									<CellContents>
+										<Textbox Name="Textbox72">
+											<CanGrow>true</CanGrow>
+											<KeepTogether>true</KeepTogether>
+											<Paragraphs>
+												<Paragraph>
+													<TextRuns>
+														<TextRun>
+															<Value>= Sum( Iif(Fields!DayStatus.Value = "H",1,0))</Value>
+															<Style>
+																<FontFamily>Times New Roman</FontFamily>
+																<FontSize>8pt</FontSize>
+															</Style>
+														</TextRun>
+													</TextRuns>
+													<Style>
+														<TextAlign>Center</TextAlign>
+													</Style>
+												</Paragraph>
+											</Paragraphs>
+											<rd:DefaultName>Textbox72</rd:DefaultName>
+											<Style>
+												<Border>
+													<Color>LightGrey</Color>
+													<Style>Solid</Style>
+													<Width>0.25pt</Width>
+												</Border>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<PaddingBottom>2pt</PaddingBottom>
+											</Style>
+										</Textbox>
+									</CellContents>
+								</TablixCell>
+							</TablixCells>
+						</TablixRow>
+					</TablixRows>
+				</TablixBody>
+				<TablixColumnHierarchy>
+					<TablixMembers>
+						<TablixMember>
+							<Group Name="Workdate">
+								<GroupExpressions>
+									<GroupExpression>=Fields!Workdate.Value</GroupExpression>
+								</GroupExpressions>
+							</Group>
+							<SortExpressions>
+								<SortExpression>
+									<Value>=Fields!Workdate.Value</Value>
+								</SortExpression>
+							</SortExpressions>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Workdate">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>=Day(Fields!Workdate.Value)</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+															<Format>=Day(Fields!Workdate.Value)</Format>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Workdate</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+							<TablixMembers>
+								<TablixMember />
+							</TablixMembers>
+						</TablixMember>
+						<TablixMember>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Textbox43">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>P</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox43</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+						</TablixMember>
+						<TablixMember>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Textbox51">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>L</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox51</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+						</TablixMember>
+						<TablixMember>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Textbox63">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>OD</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox63</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+						</TablixMember>
+						<TablixMember>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Textbox55">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>A</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox55</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+						</TablixMember>
+						<TablixMember>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Textbox59">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>LV</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox59</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+						</TablixMember>
+						<TablixMember>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Textbox67">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>W</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox67</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+						</TablixMember>
+						<TablixMember>
+							<TablixHeader>
+								<Size>0.5098in</Size>
+								<CellContents>
+									<Textbox Name="Textbox71">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>H</Value>
+														<Style>
+															<FontFamily>Times New Roman</FontFamily>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Center</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>Textbox71</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>LightGrey</Color>
+												<Style>Solid</Style>
+												<Width>0.25pt</Width>
+											</Border>
+											<VerticalAlign>Middle</VerticalAlign>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+						</TablixMember>
+					</TablixMembers>
+				</TablixColumnHierarchy>
+				<TablixRowHierarchy>
+					<TablixMembers>
+						<TablixMember>
+							<Group Name="EmpCode">
+								<GroupExpressions>
+									<GroupExpression>=Fields!EmpCode.Value</GroupExpression>
+								</GroupExpressions>
+							</Group>
+							<SortExpressions>
+								<SortExpression>
+									<Value>=Fields!EmpCode.Value</Value>
+								</SortExpression>
+							</SortExpressions>
+							<TablixHeader>
+								<Size>0.23056in</Size>
+								<CellContents>
+									<Textbox Name="CompanyName2">
+										<CanGrow>true</CanGrow>
+										<KeepTogether>true</KeepTogether>
+										<Paragraphs>
+											<Paragraph>
+												<TextRuns>
+													<TextRun>
+														<Value>=RunningValue(Fields!EmpCode.Value,countdistinct,"DataSet1")</Value>
+														<Style>
+															<FontSize>8pt</FontSize>
+														</Style>
+													</TextRun>
+												</TextRuns>
+												<Style>
+													<TextAlign>Left</TextAlign>
+												</Style>
+											</Paragraph>
+										</Paragraphs>
+										<rd:DefaultName>CompanyName</rd:DefaultName>
+										<Style>
+											<Border>
+												<Color>Silver</Color>
+												<Style>Solid</Style>
+												<Width>0.5pt</Width>
+											</Border>
+											<PaddingLeft>2pt</PaddingLeft>
+											<PaddingRight>2pt</PaddingRight>
+											<PaddingTop>2pt</PaddingTop>
+											<PaddingBottom>2pt</PaddingBottom>
+										</Style>
+									</Textbox>
+								</CellContents>
+							</TablixHeader>
+							<TablixMembers>
+								<TablixMember>
+									<TablixHeader>
+										<Size>0.47014in</Size>
+										<CellContents>
+											<Textbox Name="LOB1">
+												<CanGrow>true</CanGrow>
+												<KeepTogether>true</KeepTogether>
+												<Paragraphs>
+													<Paragraph>
+														<TextRuns>
+															<TextRun>
+																<Value>=Fields!LOB.Value</Value>
+																<Style>
+																	<FontFamily>Times New Roman</FontFamily>
+																	<FontSize>8pt</FontSize>
+																</Style>
+															</TextRun>
+														</TextRuns>
+														<Style />
+													</Paragraph>
+												</Paragraphs>
+												<rd:DefaultName>LOB1</rd:DefaultName>
+												<Style>
+													<Border>
+														<Color>LightGrey</Color>
+														<Style>Solid</Style>
+														<Width>0.25pt</Width>
+													</Border>
+													<PaddingLeft>2pt</PaddingLeft>
+													<PaddingRight>2pt</PaddingRight>
+													<PaddingTop>2pt</PaddingTop>
+													<PaddingBottom>2pt</PaddingBottom>
+												</Style>
+											</Textbox>
+										</CellContents>
+									</TablixHeader>
+									<TablixMembers>
+										<TablixMember>
+											<TablixHeader>
+												<Size>0.39722in</Size>
+												<CellContents>
+													<Textbox Name="EmpTypeDes">
+														<CanGrow>true</CanGrow>
+														<KeepTogether>true</KeepTogether>
+														<Paragraphs>
+															<Paragraph>
+																<TextRuns>
+																	<TextRun>
+																		<Value>=Fields!EmpTypeDes.Value</Value>
+																		<Style>
+																			<FontFamily>Times New Roman</FontFamily>
+																			<FontSize>8pt</FontSize>
+																		</Style>
+																	</TextRun>
+																</TextRuns>
+																<Style />
+															</Paragraph>
+														</Paragraphs>
+														<rd:DefaultName>EmpTypeDes</rd:DefaultName>
+														<Style>
+															<Border>
+																<Color>LightGrey</Color>
+																<Style>Solid</Style>
+																<Width>0.25pt</Width>
+															</Border>
+															<PaddingLeft>2pt</PaddingLeft>
+															<PaddingRight>2pt</PaddingRight>
+															<PaddingTop>2pt</PaddingTop>
+															<PaddingBottom>2pt</PaddingBottom>
+														</Style>
+													</Textbox>
+												</CellContents>
+											</TablixHeader>
+											<TablixMembers>
+												<TablixMember>
+													<TablixHeader>
+														<Size>0.49097in</Size>
+														<CellContents>
+															<Textbox Name="Department">
+																<CanGrow>true</CanGrow>
+																<KeepTogether>true</KeepTogether>
+																<Paragraphs>
+																	<Paragraph>
+																		<TextRuns>
+																			<TextRun>
+																				<Value>=Fields!Department.Value</Value>
+																				<Style>
+																					<FontFamily>Times New Roman</FontFamily>
+																					<FontSize>8pt</FontSize>
+																				</Style>
+																			</TextRun>
+																		</TextRuns>
+																		<Style />
+																	</Paragraph>
+																</Paragraphs>
+																<rd:DefaultName>Department</rd:DefaultName>
+																<Style>
+																	<Border>
+																		<Color>LightGrey</Color>
+																		<Style>Solid</Style>
+																		<Width>0.25pt</Width>
+																	</Border>
+																	<PaddingLeft>2pt</PaddingLeft>
+																	<PaddingRight>2pt</PaddingRight>
+																	<PaddingTop>2pt</PaddingTop>
+																	<PaddingBottom>2pt</PaddingBottom>
+																</Style>
+															</Textbox>
+														</CellContents>
+													</TablixHeader>
+													<TablixMembers>
+														<TablixMember>
+															<TablixHeader>
+																<Size>0.43367in</Size>
+																<CellContents>
+																	<Textbox Name="EmpCode">
+																		<CanGrow>true</CanGrow>
+																		<KeepTogether>true</KeepTogether>
+																		<Paragraphs>
+																			<Paragraph>
+																				<TextRuns>
+																					<TextRun>
+																						<Value>=Fields!EmpCode.Value</Value>
+																						<Style>
+																							<FontFamily>Times New Roman</FontFamily>
+																							<FontSize>8pt</FontSize>
+																						</Style>
+																					</TextRun>
+																				</TextRuns>
+																				<Style />
+																			</Paragraph>
+																		</Paragraphs>
+																		<rd:DefaultName>EmpCode</rd:DefaultName>
+																		<Style>
+																			<Border>
+																				<Color>LightGrey</Color>
+																				<Style>Solid</Style>
+																				<Width>0.25pt</Width>
+																			</Border>
+																			<PaddingLeft>2pt</PaddingLeft>
+																			<PaddingRight>2pt</PaddingRight>
+																			<PaddingTop>2pt</PaddingTop>
+																			<PaddingBottom>2pt</PaddingBottom>
+																		</Style>
+																	</Textbox>
+																</CellContents>
+															</TablixHeader>
+															<TablixMembers>
+																<TablixMember>
+																	<TablixHeader>
+																		<Size>0.63317in</Size>
+																		<CellContents>
+																			<Textbox Name="EmpName">
+																				<CanGrow>true</CanGrow>
+																				<KeepTogether>true</KeepTogether>
+																				<Paragraphs>
+																					<Paragraph>
+																						<TextRuns>
+																							<TextRun>
+																								<Value>=Fields!EmpName.Value</Value>
+																								<Style>
+																									<FontFamily>Times New Roman</FontFamily>
+																									<FontSize>8pt</FontSize>
+																								</Style>
+																							</TextRun>
+																						</TextRuns>
+																						<Style />
+																					</Paragraph>
+																				</Paragraphs>
+																				<rd:DefaultName>EmpName</rd:DefaultName>
+																				<Style>
+																					<Border>
+																						<Color>LightGrey</Color>
+																						<Style>Solid</Style>
+																						<Width>0.25pt</Width>
+																					</Border>
+																					<PaddingLeft>2pt</PaddingLeft>
+																					<PaddingRight>2pt</PaddingRight>
+																					<PaddingTop>2pt</PaddingTop>
+																					<PaddingBottom>2pt</PaddingBottom>
+																				</Style>
+																			</Textbox>
+																		</CellContents>
+																	</TablixHeader>
+																	<TablixMembers>
+																		<TablixMember>
+																			<TablixHeader>
+																				<Size>0.47275in</Size>
+																				<CellContents>
+																					<Textbox Name="Designation">
+																						<CanGrow>true</CanGrow>
+																						<KeepTogether>true</KeepTogether>
+																						<Paragraphs>
+																							<Paragraph>
+																								<TextRuns>
+																									<TextRun>
+																										<Value>=Fields!Designation.Value</Value>
+																										<Style>
+																											<FontFamily>Times New Roman</FontFamily>
+																											<FontSize>8pt</FontSize>
+																										</Style>
+																									</TextRun>
+																								</TextRuns>
+																								<Style />
+																							</Paragraph>
+																						</Paragraphs>
+																						<rd:DefaultName>Designation</rd:DefaultName>
+																						<Style>
+																							<Border>
+																								<Color>LightGrey</Color>
+																								<Style>Solid</Style>
+																								<Width>0.25pt</Width>
+																							</Border>
+																							<PaddingLeft>2pt</PaddingLeft>
+																							<PaddingRight>2pt</PaddingRight>
+																							<PaddingTop>2pt</PaddingTop>
+																							<PaddingBottom>2pt</PaddingBottom>
+																						</Style>
+																					</Textbox>
+																				</CellContents>
+																			</TablixHeader>
+																			<TablixMembers>
+																				<TablixMember />
+																			</TablixMembers>
+																		</TablixMember>
+																	</TablixMembers>
+																</TablixMember>
+															</TablixMembers>
+														</TablixMember>
+													</TablixMembers>
+												</TablixMember>
+											</TablixMembers>
+										</TablixMember>
+									</TablixMembers>
+								</TablixMember>
+							</TablixMembers>
+						</TablixMember>
+					</TablixMembers>
+				</TablixRowHierarchy>
+				<RepeatColumnHeaders>true</RepeatColumnHeaders>
+				<RepeatRowHeaders>true</RepeatRowHeaders>
+				<DataSetName>DataSet1</DataSetName>
+				<Top>0.38588in</Top>
+				<Left>0.15625in</Left>
+				<Height>0.73866in</Height>
+				<Width>4.76719in</Width>
+				<Style>
+					<Border>
+						<Style>None</Style>
+					</Border>
+				</Style>
+			</Tablix>
+		</ReportItems>
+		<Height>1.12454in</Height>
+		<Style />
+	</Body>
+	<Width>4.92344in</Width>
+	<Page>
+		<PageHeader>
+			<Height>0.79056in</Height>
+			<PrintOnFirstPage>true</PrintOnFirstPage>
+			<PrintOnLastPage>true</PrintOnLastPage>
+			<ReportItems>
+				<Textbox Name="CompanyName">
+					<CanGrow>true</CanGrow>
+					<KeepTogether>true</KeepTogether>
+					<Paragraphs>
+						<Paragraph>
+							<TextRuns>
+								<TextRun>
+									<Value>=First(Fields!CompanyName.Value, "DataSet1")</Value>
+									<Style>
+										<FontFamily>Times New Roman</FontFamily>
+									</Style>
+								</TextRun>
+							</TextRuns>
+							<Style />
+						</Paragraph>
+					</Paragraphs>
+					<rd:DefaultName>CompanyName</rd:DefaultName>
+					<Top>0.22458in</Top>
+					<Left>0.15625in</Left>
+					<Height>0.25in</Height>
+					<Width>1.79167in</Width>
+					<Style>
+						<Border>
+							<Style>None</Style>
+						</Border>
+						<PaddingLeft>2pt</PaddingLeft>
+						<PaddingRight>2pt</PaddingRight>
+						<PaddingTop>2pt</PaddingTop>
+						<PaddingBottom>2pt</PaddingBottom>
+					</Style>
+				</Textbox>
+				<Textbox Name="CompanyAddress">
+					<CanGrow>true</CanGrow>
+					<KeepTogether>true</KeepTogether>
+					<Paragraphs>
+						<Paragraph>
+							<TextRuns>
+								<TextRun>
+									<Value>=First(Fields!CompanyAddress.Value, "DataSet1")</Value>
+									<Style>
+										<FontSize>8pt</FontSize>
+									</Style>
+								</TextRun>
+							</TextRuns>
+							<Style />
+						</Paragraph>
+					</Paragraphs>
+					<rd:DefaultName>CompanyAddress</rd:DefaultName>
+					<Top>0.54056in</Top>
+					<Left>0.15625in</Left>
+					<Height>0.25in</Height>
+					<Width>1.79167in</Width>
+					<ZIndex>1</ZIndex>
+					<Style>
+						<Border>
+							<Style>None</Style>
+						</Border>
+						<PaddingLeft>2pt</PaddingLeft>
+						<PaddingRight>2pt</PaddingRight>
+						<PaddingTop>2pt</PaddingTop>
+						<PaddingBottom>2pt</PaddingBottom>
+					</Style>
+				</Textbox>
+				<Textbox Name="Textbox27">
+					<CanGrow>true</CanGrow>
+					<KeepTogether>true</KeepTogether>
+					<Paragraphs>
+						<Paragraph>
+							<TextRuns>
+								<TextRun>
+									<Value>Monthly Attendance Sheet</Value>
+									<Style />
+								</TextRun>
+							</TextRuns>
+							<Style />
+						</Paragraph>
+					</Paragraphs>
+					<rd:DefaultName>Textbox27</rd:DefaultName>
+					<Top>0.20944in</Top>
+					<Left>2.14236in</Left>
+					<Height>0.25in</Height>
+					<Width>2.33941in</Width>
+					<ZIndex>2</ZIndex>
+					<Style>
+						<Border>
+							<Style>None</Style>
+						</Border>
+						<PaddingLeft>2pt</PaddingLeft>
+						<PaddingRight>2pt</PaddingRight>
+						<PaddingTop>2pt</PaddingTop>
+						<PaddingBottom>2pt</PaddingBottom>
+					</Style>
+				</Textbox>
+				<Textbox Name="Textbox117">
+					<CanGrow>true</CanGrow>
+					<KeepTogether>true</KeepTogether>
+					<Paragraphs>
+						<Paragraph>
+							<TextRuns>
+								<TextRun>
+									<Value>
+										="For the Date Range "+First(Fields!FromDate.Value, "DataSet1")+" to "+
+										First(Fields!ToDate.Value, "DataSet1")
+									</Value>
+									<Style>
+										<FontSize>8pt</FontSize>
+									</Style>
+								</TextRun>
+							</TextRuns>
+							<Style />
+						</Paragraph>
+					</Paragraphs>
+					<rd:DefaultName>Textbox117</rd:DefaultName>
+					<Top>0.52889in</Top>
+					<Left>2.14236in</Left>
+					<Height>0.24431in</Height>
+					<Width>2.33941in</Width>
+					<ZIndex>3</ZIndex>
+					<Style>
+						<Border>
+							<Style>None</Style>
+						</Border>
+						<PaddingLeft>2pt</PaddingLeft>
+						<PaddingRight>2pt</PaddingRight>
+						<PaddingTop>2pt</PaddingTop>
+						<PaddingBottom>2pt</PaddingBottom>
+					</Style>
+				</Textbox>
+			</ReportItems>
+			<Style>
+				<Border>
+					<Style>None</Style>
+				</Border>
+			</Style>
+		</PageHeader>
+		<PageFooter>
+			<Height>1in</Height>
+			<PrintOnFirstPage>true</PrintOnFirstPage>
+			<PrintOnLastPage>true</PrintOnLastPage>
+			<Style>
+				<Border>
+					<Style>None</Style>
+				</Border>
+			</Style>
+		</PageFooter>
+		<PageHeight>8.5in</PageHeight>
+		<PageWidth>11in</PageWidth>
+		<LeftMargin>0.5in</LeftMargin>
+		<TopMargin>0.5in</TopMargin>
+		<BottomMargin>0.5in</BottomMargin>
+		<Style />
+	</Page>
+	<AutoRefresh>0</AutoRefresh>
+	<DataSources>
+		<DataSource Name="DataSource1">
+			<ConnectionProperties>
+				<DataProvider>SQL</DataProvider>
+				<ConnectString>Data Source=Shaikat\Exp;Initial Catalog=APH</ConnectString>
+			</ConnectionProperties>
+			<rd:SecurityType>DataBase</rd:SecurityType>
+			<rd:DataSourceID>a4ad584b-d037-4bf1-ae9c-782fc9e8fb73</rd:DataSourceID>
+		</DataSource>
+	</DataSources>
+	<DataSets>
+		<DataSet Name="DataSet1">
+			<Query>
+				<DataSourceName>DataSource1</DataSourceName>
+				<QueryParameters>
+					<QueryParameter Name="@FromDate_M">
+						<Value>=Parameters!FromDate_M.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@ToDate_M">
+						<Value>=Parameters!ToDate_M.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@Department">
+						<Value>=Parameters!Department.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@Designation">
+						<Value>=Parameters!Designation.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@EmpCode">
+						<Value>=Parameters!EmpCode.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@EmpType">
+						<Value>=Parameters!EmpType.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@JobLocation">
+						<Value>=Parameters!JobLocation.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@JobGrade">
+						<Value>=Parameters!JobGrade.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@LOB">
+						<Value>=Parameters!LOB.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@Supervisor">
+						<Value>=Parameters!Supervisor.Value</Value>
+					</QueryParameter>
+					<QueryParameter Name="@EmpStatus">
+						<Value>=Parameters!EmpStatus.Value</Value>
+					</QueryParameter>
+				</QueryParameters>
+				<CommandType>StoredProcedure</CommandType>
+				<CommandText>spRptJobCard</CommandText>
+			</Query>
+			<Fields>
+				<Field Name="CompanyName">
+					<DataField>CompanyName</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="CompanyAddress">
+					<DataField>CompanyAddress</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="FromDate">
+					<DataField>FromDate</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+				<Field Name="ToDate">
+					<DataField>ToDate</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+				<Field Name="EmpKey">
+					<DataField>EmpKey</DataField>
+					<rd:TypeName>System.Int64</rd:TypeName>
+				</Field>
+				<Field Name="EmpCode">
+					<DataField>EmpCode</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="EmpName">
+					<DataField>EmpName</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Designation">
+					<DataField>Designation</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="LOB">
+					<DataField>LOB</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Job_Location">
+					<DataField>Job Location</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="EmpTypeDes">
+					<DataField>EmpTypeDes</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Department">
+					<DataField>Department</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Unit">
+					<DataField>Unit</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Job_Grade">
+					<DataField>Job Grade</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Workdate">
+					<DataField>Workdate</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+				<Field Name="ShiftIntime">
+					<DataField>ShiftIntime</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="ShiftOutTime">
+					<DataField>ShiftOutTime</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="DayStatus">
+					<DataField>DayStatus</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Slab_01">
+					<DataField>Slab_01</DataField>
+					<rd:TypeName>System.Decimal</rd:TypeName>
+				</Field>
+				<Field Name="Slab_02">
+					<DataField>Slab_02</DataField>
+					<rd:TypeName>System.Decimal</rd:TypeName>
+				</Field>
+				<Field Name="Slab_03">
+					<DataField>Slab_03</DataField>
+					<rd:TypeName>System.Decimal</rd:TypeName>
+				</Field>
+				<Field Name="InTime">
+					<DataField>InTime</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+				<Field Name="OutTime">
+					<DataField>OutTime</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+				<Field Name="OThour">
+					<DataField>OThour</DataField>
+					<rd:TypeName>System.Decimal</rd:TypeName>
+				</Field>
+				<Field Name="EarlyOutHour">
+					<DataField>EarlyOutHour</DataField>
+					<rd:TypeName>System.Decimal</rd:TypeName>
+				</Field>
+				<Field Name="LateHour">
+					<DataField>LateHour</DataField>
+					<rd:TypeName>System.Decimal</rd:TypeName>
+				</Field>
+				<Field Name="AdditionalStatus">
+					<DataField>AdditionalStatus</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="OutTimeB">
+					<DataField>OutTimeB</DataField>
+					<rd:TypeName>System.DateTime</rd:TypeName>
+				</Field>
+			</Fields>
+		</DataSet>
+	</DataSets>
+	<ReportParameters>
+		<ReportParameter Name="FromDate_M">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>07/01/2013</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>From Date M</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="ToDate_M">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>07/31/2013</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>To Date M</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="Department">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Department</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="Designation">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Designation</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="EmpCode">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Emp Code</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="EmpType">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Emp Type</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="JobLocation">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Job Location</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="JobGrade">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Job Grade</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="LOB">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>LOB</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="Supervisor">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Supervisor</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="EmpStatus">
+			<DataType>String</DataType>
+			<DefaultValue>
+				<Values>
+					<Value>0</Value>
+				</Values>
+			</DefaultValue>
+			<Prompt>Emp Status</Prompt>
+		</ReportParameter>
+	</ReportParameters>
+	<rd:ReportUnitType>Inch</rd:ReportUnitType>
+	<rd:ReportID>c1a48d40-d9d7-4a11-bf76-1bc88a19d756</rd:ReportID>
+</Report>

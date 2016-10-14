@@ -1,0 +1,128 @@
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\Hr.Web.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\Hr.Web.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ACC.BLL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ACC.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.DAL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.DATA.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Hr.BLL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Hr.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Security.BLL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Security.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.STATIC.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Web.Framework.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\log4net.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ReportSuite.BLL.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ReportSuite.DAO.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\NCalc.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ACC.BLL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ACC.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.DAL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.DATA.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Hr.BLL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Hr.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Security.BLL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Security.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.STATIC.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ASL.Web.Framework.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ReportSuite.BLL.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\bin\ReportSuite.DAO.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\obj\Debug\Hr.Web.csprojResolveAssemblyReference.cache
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\obj\Debug\RdlCompile.cache
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\obj\Debug\RdlCompile.compiled
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\obj\Debug\Hr.Web.dll
+E:\Update10.23.2013\Update10.23.2013\HR\Hr.Web\obj\Debug\Hr.Web.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\Hr.Web.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\Hr.Web.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ACC.BLL.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ACC.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.DAL.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.DATA.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Hr.BLL.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Hr.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Security.BLL.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Security.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.STATIC.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Web.Framework.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\log4net.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ReportSuite.BLL.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ReportSuite.DAO.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\NCalc.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ACC.BLL.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ACC.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.DAL.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.DATA.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Hr.BLL.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Hr.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Security.BLL.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Security.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.STATIC.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ASL.Web.Framework.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ReportSuite.BLL.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\bin\ReportSuite.DAO.pdb
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\obj\Debug\Hr.Web.csprojResolveAssemblyReference.cache
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\obj\Debug\Hr.Web.dll
+E:\tfs_HR\UniSoftHR\HR\Hr.Web\obj\Debug\Hr.Web.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\Hr.Web.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\Hr.Web.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ACC.BLL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ACC.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.DAL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.DATA.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.BLL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Security.BLL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Security.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.STATIC.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Web.Framework.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\itextsharp.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\log4net.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ReportSuite.BLL.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ReportSuite.DAO.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\NCalc.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ACC.BLL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ACC.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.DAL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.DATA.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.BLL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Security.BLL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Security.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.STATIC.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ASL.Web.Framework.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ReportSuite.BLL.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\bin\ReportSuite.DAO.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\obj\Debug\Hr.Web.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\obj\Debug\Hr.Web.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\Hr.Web\obj\Debug\Hr.Web.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\Hr.Web.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\Hr.Web.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ACC.BLL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ACC.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.DAL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.DATA.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.BLL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Security.BLL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Security.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.STATIC.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Web.Framework.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\itextsharp.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\log4net.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ReportSuite.BLL.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ReportSuite.DAO.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\NCalc.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ACC.BLL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ACC.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.DAL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.DATA.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.BLL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Hr.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Security.BLL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Security.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.STATIC.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ASL.Web.Framework.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ReportSuite.BLL.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\bin\ReportSuite.DAO.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\obj\Debug\Hr.Web.csprojResolveAssemblyReference.cache
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\obj\Debug\Hr.Web.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\Hr.Web\obj\Debug\Hr.Web.pdb

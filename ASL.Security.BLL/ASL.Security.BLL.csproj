@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE90A7A8-4E5F-496F-BB0F-2122CE400077}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASL.Security.BLL</RootNamespace>
+    <AssemblyName>ASL.Security.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationManager.cs" />
+    <Compile Include="CompanyEntityManager.cs" />
+    <Compile Include="GroupInformationManager.cs" />
+    <Compile Include="ProfileManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityManager.cs" />
+    <Compile Include="SecurityRuleManager.cs" />
+    <Compile Include="UserInformationManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASL.DAL\ASL.DAL.csproj">
+      <Project>{AD5C9169-C756-4311-B709-0BBA5AE71A5F}</Project>
+      <Name>ASL.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.DATA\ASL.DATA.csproj">
+      <Project>{1BCDDC5D-6F5E-4F74-9A76-274EA3295C30}</Project>
+      <Name>ASL.DATA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.Hr.DAO\ASL.Hr.DAO.csproj">
+      <Project>{ADEDE3F3-EA5F-4701-9C87-1D9F96D62CF7}</Project>
+      <Name>ASL.Hr.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.Security.DAO\ASL.Security.DAO.csproj">
+      <Project>{90C53EE9-A43E-48A6-BAE4-9F37F3CDE440}</Project>
+      <Name>ASL.Security.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASL.STATIC\ASL.STATIC.csproj">
+      <Project>{2299BB0D-1CCE-448D-B07C-ECF49A2247A3}</Project>
+      <Name>ASL.STATIC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

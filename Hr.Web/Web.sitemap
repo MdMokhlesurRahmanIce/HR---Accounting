@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Home.aspx" title="Home"  description="Home">
+
+    <siteMapNode url="~/UI/Security/GroupInformation.aspx" title="Group Information"  description="Group Information" />
+    <siteMapNode url="~/UI/Security/SecurityRuleInfo.aspx" title="Role Information"  description="Role Information" />
+    <siteMapNode url="~/UI/Security/UserInformation.aspx" title="User Information"  description="User Information" />
+
+    <siteMapNode url="~/UI/Setup/CompanyPolicies.aspx" title="Company Policy Upload"  description="Company Policy Upload" />
+    <siteMapNode url="~/UI/Setup/LatestNewsSetup.aspx" title="Latest News"  description="Latest News" />
+    <siteMapNode url="~/UI/SystemConfig/HouseKeepingEntry.aspx" title="HK Entry"  description="HK Entry" />
+    <siteMapNode url="~/UI/SystemConfig/Entity.aspx" title="Field Manager"  description="Field Manager" />
+    <siteMapNode url="~/UI/Setup/Configuration.aspx" title="System Configuration"  description="System Configuration" />
+    <siteMapNode url="~/UI/Setup/Currency.aspx" title="Currency"  description="Currency" />
+    <siteMapNode url="~/UI/Setup/Bank.aspx" title="Banks"  description="Bank Info" />
+    <siteMapNode url="~/UI/Setup/EducationQualification.aspx" title="Education Qualification"  description="EducationQualification" />
+    <siteMapNode url="~/UI/Setup/Ethnicgroup.aspx" title="Ethnic group"  description="Ethnicgroup" />
+    <siteMapNode url="~/UI/Setup/Line.aspx" title="Line"  description="Line" />
+    <siteMapNode url="~/UI/Setup/LookupEnt.aspx" title="Lookup Entity"  description="Lookup Entity" />
+
+    <siteMapNode url="~/UI/Attendance/AttendanceProcess.aspx" title="Attendance Process"  description="Attendance Process" />
+    <siteMapNode url="~/UI/Attendance/AttendImport.aspx" title="Attendance Import"  description="Attendance Import" />
+    <siteMapNode url="~/UI/Attendance/AttendanceManual.aspx" title="Attendance Manual"  description="Attendance Manual" />
+    <siteMapNode url="~/UI/Attendance/OTSlab.aspx" title="OT Slab"  description="Over Time Slab" />
+    <siteMapNode url="~/UI/Attendance/EmpOutOffOfficeEntry.aspx" title="Out Of Office Entry"  description="Out Of OfficeEntry" />
+	<siteMapNode url="~/UI/Attendance/WHDeclaration.aspx" title="WHDeclaration"  description="WHDeclaration" />
+    <siteMapNode url="~/UI/Attendance/ShiftPlan.aspx" title="Shift Plan"  description="Shift Plan" />
+	<siteMapNode url="~/UI/Attendance/ApprovalOfManualEntry.aspx" title="Approval Of Manual Entry"  description="Approval Of Manual Entry" />
+    <siteMapNode url="~/UI/Attendance/ManualShiftAssignment.aspx" title="Manual Shift Assignment"  description="Manual Shift Assignment" />
+	<siteMapNode url="~/UI/Attendance/OTAssignmentApproval.aspx" title="OT Assignment Approval"  description="OT Assignment Approval" />
+	<siteMapNode url="~/UI/Attendance/ShiftRule.aspx" title="Manual Shift Assignment"  description="Manual Shift Assignment" />
+	<siteMapNode url="~/UI/Attendance/ShiftRosterProcess.aspx" title="Shift Roster Process"  description="Shift Roster Process" />
+	<siteMapNode url="~/UI/Attendance/OTAssignment.aspx" title="OT Assignment"  description="OT Assignment" />
+    <siteMapNode url="~/UI/Attendance/OTAdjustment.aspx" title="OT Adjustment"  description="OT Adjustment" />
+	<siteMapNode url="~/UI/Attendance/SalaryRule.aspx" title="Salary Rule"  description="Salary Rule" />
+
+	  <siteMapNode url="~/UI/Payroll/SalaryHeadCreation.aspx" title="Salary Head"  description="Salary Head" />
+	  <siteMapNode url="~/UI/Payroll/SalaryRule.aspx" title="Salary Rule"  description="Salary Rule" />
+	  <siteMapNode url="~/UI/Payroll/SalaryInfoEntry.aspx" title="Salary Info Entry"  description="Salary Info Entry" />
+    <siteMapNode url="~/UI/Payroll/LoanType.aspx" title="Loan Type"  description="Loan Type" />
+    <siteMapNode url="~/UI/EmployeeBasicInfo/LoanAndAdvancedManagement.aspx" title="Loan And Advanced Management"  description="Loan And Advanced Management" />
+    <siteMapNode url="~/UI/Payroll/SalaryProcess.aspx" title="Salary Process"  description="Salary Process" />
+    <siteMapNode url="~/UI/Payroll/MiscAllowDedEntry.aspx" title="Allow Deduction Entry"  description="Allow Deduction Entry" />
+    <siteMapNode url="~/UI/Payroll/UploadFromExcelForSalaryProcess.aspx" title="Upload From Excel For Salary Process"  description="Upload From Excel For Salary Process" />
+    <siteMapNode url="~/UI/Payroll/AttendancePaymentInfo.aspx" title="Attendance Based Payment Policy"  description="Attendance Based Payment Policy" />
+    <siteMapNode url="~/UI/Payroll/OtherSalaryRule.aspx" title="Other Salary Rule"  description="Other Salary Rule" />
+
+	  <siteMapNode url="~/UI/LeaveManagement/LeavePolicy.aspx" title="Leave Policy"  description="Leave Policy" />
+	  <siteMapNode url="~/UI/LeaveManagement/LeaveRule.aspx" title="Leave Rule"  description="Leave Rule" />
+	  <siteMapNode url="~/UI/LeaveManagement/LeaveTransaction.aspx" title="Leave Transaction"  description="Leave Transaction" />
+    <siteMapNode url="~/UI/LeaveManagement/LeaveTransactionApproval.aspx" title="Leave Transaction Approval"  description="Leave Transaction Approval" />
+    <siteMapNode url="~/UI/LeaveManagement/LeaveAllocation.aspx" title="Leave Allocation"  description="Leave Allocation" />
+    <siteMapNode url="~/UI/LeaveManagement/MaternityLeavePolicy.aspx" title="Maternity Leave Policy"  description="Maternity Leave Policy" />
+    <siteMapNode url="~/UI/LeaveManagement/MaternityLeaveTransaction.aspx" title="Maternity Leave Transaction"  description="Maternity Leave Transaction" />
+
+	  <siteMapNode url="~/UI/ProductionDataCapture/Configuration.aspx" title="Configuration"  description="Configuration" />
+	  <siteMapNode url="~/UI/ProductionDataCapture/Rate.aspx" title="Rate"  description="Rate" />
+	  <siteMapNode url="~/UI/ProductionDataCapture/DataCapture.aspx" title="Data Capture"  description="Data Capture" />
+
+    <siteMapNode url="~/UI/EmployeeBasicInfo/EmployeeBasicInformation.aspx" title="Employee Basic Information"  description="Employee Basic Information" />
+    <siteMapNode url="~/UI/EmployeeBasicInfo/EmployeeSeperation.aspx" title="Employee Seperation"  description="Employee Seperation" />
+    <siteMapNode url="~/UI/EmployeeBasicInfo/MadicalReinversement.aspx" title="Medical Allowances"  description="Medical Allowances" />
+    <siteMapNode url="~/UI/EmployeeBasicInfo/EmployeeInfoComonApproval.aspx" title="Employee Related Approval"  description="Employee Related Approval" />
+
+    <siteMapNode url="~/UI/HrActivities/PromotionIncrement.aspx" title="Promotion And Increment"  description="Promotion And Increment" />
+    <siteMapNode url="~/UI/HrActivities/Transfer.aspx" title="Transfer"  description="Transfer" />
+    <siteMapNode url="~/UI/HrActivities/PromotionApproval.aspx" title="Approval of promotion"  description="Approval of promotion" />
+    <siteMapNode url="~/UI/HrActivities/TransferApproval.aspx" title="Approval of transfer"  description="Approval of transfer" />
+
+    <siteMapNode url="~/UI/ACC/Acc_FiscalYear.aspx" title="Fiscal Year"  description="Fiscal Year" />
+    <siteMapNode url="~/UI/ACC/BalanceSheet.aspx" title="Balance Sheet"  description="Balance Sheet" />
+    <siteMapNode url="~/UI/ACC/COA.aspx" title="COA"  description="COA" />
+    <siteMapNode url="~/UI/ACC/Ledger.aspx" title="Ledger"  description="Ledger" />
+    
+    <siteMapNode url="~/UI/ACC/PostingVoucher.aspx" title="Posting Voucher"  description="Posting Voucher" />
+    <siteMapNode url="~/UI/ACC/ProfitLoss.aspx" title="Profit Loss"  description="Profit Loss" />
+    <siteMapNode url="~/UI/ACC/SearchOrEditVoucher.aspx" title="Search Or Edit Voucher"  description="Search Or Edit Voucher" />
+    <siteMapNode url="~/UI/ACC/Transaction.aspx" title="Transaction"  description="Transaction" />
+    <siteMapNode url="~/UI/ACC/TrialBalance.aspx" title="Trial Balance"  description="Trial Balance" />
+    <siteMapNode url="~/UI/ACC/Voucher.aspx" title="Voucher"  description="Voucher" />
+    <siteMapNode url="~/UI/ACC/YearEndProcess.aspx" title="Year End Process"  description="Year End Process" />
+
+    <siteMapNode url="~/UI/Sales/NewInvoiceEntry.aspx" title="New Invoice Entry"  description="New Invoice Entry" />
+    <siteMapNode url="~/UI/Sales/Receipt.aspx" title="Receipt"  description="Receipt" />
+    <siteMapNode url="~/UI/Sales/SalesUploader.aspx" title="Sales Uploader"  description="Sales Uploader" />
+    <siteMapNode url="~/UI/Purchase/EnterNewAccountPayable.aspx" title="Receipt"  description="Receipt" />
+    <siteMapNode url="~/UI/Purchase/PayPayable.aspx" title="Advance Pay"  description="Advance Pay" />
+
+    <siteMapNode url="~/Reports/ReportViewer.aspx" title="Report Viewer"  description="ReportViewer" />
+  </siteMapNode>
+</siteMap>

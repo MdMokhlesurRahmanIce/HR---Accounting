@@ -1,0 +1,17 @@
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\bin\Debug\ASL.DATA.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\bin\Debug\ASL.DATA.pdb
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\obj\Debug\ASL.DATA.dll
+E:\Update10.23.2013\Update10.23.2013\HR\ASL.DATA\obj\Debug\ASL.DATA.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\bin\Debug\ASL.DATA.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\bin\Debug\ASL.DATA.pdb
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\obj\Debug\ASL.DATA.dll
+E:\tfs_HR\UniSoftHR\HR\ASL.DATA\obj\Debug\ASL.DATA.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.DATA\bin\Debug\ASL.DATA.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.DATA\bin\Debug\ASL.DATA.pdb
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.DATA\obj\Debug\ASL.DATA.csprojResolveAssemblyReference.cache
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.DATA\obj\Debug\ASL.DATA.dll
+D:\C# and asp.net\Projects\HR and Accounting\HR\ASL.DATA\obj\Debug\ASL.DATA.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.DATA\bin\Debug\ASL.DATA.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.DATA\bin\Debug\ASL.DATA.pdb
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.DATA\obj\Debug\ASL.DATA.dll
+E:\Techno Drugs - Software Requirement\Monir Working Folder\HR and Accounting\HR\ASL.DATA\obj\Debug\ASL.DATA.pdb

@@ -1,0 +1,176 @@
+﻿.viewFont
+{
+    font: .7em "Trebuchet MS" , sans-serif;
+}
+.dialog_title
+{
+    font: 1.2em "Trebuchet MS" , sans-serif;
+    font-weight: bold;
+}
+#new_page
+{
+    border-color: White;
+    color: White;
+}
+.slider1, .slider2, .slider3, #style_after_heading
+{
+    font: "Trebuchet MS" , sans-serif;
+    background-color: #FDF7EA;
+}
+
+#container
+{
+    width: 100%;
+    overflow: visible;
+}
+#dialog
+{
+    float: left;
+    width: 95%;
+    width: auto;
+    margin-left: 380px;
+    position: absolute;
+}
+
+#sliding-panel
+{
+    float: right;
+    width: 5%;
+    width: auto;
+}
+
+/*---------------.--.----------------
+
+#menu
+{
+	background-color:#eeeeee;
+}*/
+.content
+{
+    padding: 2px;
+    border: 1px solid #fff;
+}
+.accordion div h3 a
+{
+    border: 0;
+}
+.accordion div div a
+{
+    color: #000000;
+}
+.tblcosting td
+{
+    border: 1px solid #333333;
+}
+.box
+{
+    margin: 2px;
+    padding: 0 2px;
+    border: 1px solid #333333;
+    color: Green;
+}
+#subgrid
+{
+    padding: 20px 0 0 0;
+}
+#supplierpoheading
+{
+    padding: 0 0 0 0px;
+}
+#styleheading
+{
+    padding: 0 0 0 0;
+}
+#styleheading img
+{
+    margin-left: 6px;
+}
+
+#poheading
+{
+    padding: 0 0 0 0px;
+}
+#requisionheading
+{
+    padding: 0 0 0 0px;
+}
+#exportpoheading
+{
+    padding: 0 0 0 155px;
+}
+
+#styleheading a, #sampleheading a, #costing-heading a, #poheading a, #supplierpoheading a, #requision-heading a
+{
+    color: #F6AE37;
+}
+
+/* dropdown */
+.dropdownchecklist
+{
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: #FFFFFF;
+    background-image: url("../images/dropdown.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-bottom-color: #DDDDDD;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #DDDDDD;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #DDDDDD;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 0;
+    border-top-color: #DDDDDD;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 20px;
+    max-width:263px;
+    min-width:100px;
+}
+.dropdownchecklist-text
+{
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 17px;
+}
+.dropdownchecklist-hover, .dropdownchecklist-active
+{
+    border-bottom-color: #FBD850;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #FBD850;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #FBD850;
+    border-top-color: #FBD850;
+    background-image: url("../images/dropdown_hover.png");
+}
+
+.Watermark
+{
+    color: #999 !important;
+}
+.Watermark_error
+{
+    color: #FF3E40 !important;
+}
